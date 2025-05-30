@@ -8,10 +8,10 @@ jobs:
   deploy-codigofacilito:
     runs-on: ubuntu-latest
     steps:
-      -run: echo "Hola mundo desde GitHub Actions"
-      -run: echo "hacemos pull del codigo"
-      -run: echo "generar binario"
-      -run: echo "publicar version"
+      - run: echo "Hola mundo desde GitHub Actions"
+      - run: echo "hacemos pull del codigo"
+      - run: echo "generar binario"
+      - run: echo "publicar version"
 
 
 
