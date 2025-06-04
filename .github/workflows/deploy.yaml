@@ -29,6 +29,7 @@ jobs:
           node-version: '18'
       - run: echo "hago un ls despues de configurar node"
       - run: ls -la
+      - run: node -v
 
 
 
