@@ -12,6 +12,19 @@ jobs:
       - run: echo "hacemos pull del codigo"
       - run: echo "generar binario"
       - run: echo "publicar version"
+  
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repositorio
+        uses: actions/checkout@v4
+
+      - name: Configurar Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+
+          
 
 
 

@@ -1,1 +1,1 @@
-Hola rick!
+Hola!
