@@ -18,11 +18,18 @@ jobs:
     steps:
       - name: Checkout repositorio
         uses: actions/checkout@v4
+      - run: echo "Hago un ls durante el checkout"
+      - run: ls -la
+
 
       - name: Configurar Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '18'
+      - run: echo "hago un ls despues de configurar node"
+      - run: ls -la
+
+      
 
           
 
